@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre nuestra deliciosa selección de alimentos frescos y preparados. Compra online con entrega rápida.">
+    <meta name="keywords" content="comida, alimentos frescos, venta de comida, delivery, restaurante online">
+    <meta property="og:title" content="Tu Tienda de Alimentos">
+    <meta property="og:description" content="Descubre nuestra deliciosa selección de alimentos frescos y preparados. Compra online con entrega rápida.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tu Tienda de Alimentos">
+    <meta name="twitter:description" content="Descubre nuestra deliciosa selección de alimentos frescos y preparados. Compra online con entrega rápida.">
+    <title>Tu Tienda de Alimentos</title>
+    <!-- React Production -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <!-- Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Styles -->
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Error Handler -->
+    <script>
+        window.reportError = function(error) {
+            console.error('Error:', error);
+        };
+    </script>
+
+    <!-- Global Config -->
+    <script type="text/babel" src="js/config.js"></script>
+    
+    <!-- Utils -->
+    <script type="text/babel" src="js/utils/cartUtils.js"></script>
+    
+    <!-- Components -->
+    <script type="text/babel" src="js/components/Header.js"></script>
+    <script type="text/babel" src="js/components/ProductCard.js"></script>
+    <script type="text/babel" src="js/components/ProductList.js"></script>
+    <script type="text/babel" src="js/components/Cart.js"></script>
+    <script type="text/babel" src="js/components/StoreMenu.js"></script>
+    <script type="text/babel" src="js/components/StoreInfo.js"></script>
+    <script type="text/babel" src="js/components/AuthModal.js"></script>
+    <script type="text/babel" src="js/components/Policies.js"></script>
+    
+    <!-- Main App -->
+    <script type="text/babel" src="js/app.js"></script>
+    <script type="text/babel" src="utils/productManager.js"></script>
+    <script type="text/babel" src="components/ProductForm.js"></script>
+    <script type="text/babel" src="components/AdminPanel.js"></script>
+    <script type="text/babel" src="utils/config.js"></script>
+    <script type="text/babel" src="components/StoreSelector.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.product-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    min-width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.store-menu-dropdown {
+    transition: all 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.store-menu-dropdown.open {
+    max-height: 400px;
+}
+
+.store-menu-item {
+    transition: background-color 0.2s ease;
+}
+
+.store-menu-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
